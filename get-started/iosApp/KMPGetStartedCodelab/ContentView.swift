@@ -3,7 +3,7 @@
 //  KMPGetStartedCodelab
 //
 //
-
+import sharedKit
 import SwiftUI
 
 struct ContentView: View {
@@ -12,7 +12,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, KMP!")
+            Text("Hello, \(Platform_iosKt.platform())!")
         }
         .padding()
     }
